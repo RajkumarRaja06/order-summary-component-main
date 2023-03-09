@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --clr-pale-blue: rgba(224, 232, 255, 0.5);
+  --clr-bright-blue: #3829e0;
+  --clr-very-pale-blue: rgba(245, 247, 255,100);
+  --clr-desaturated-blue: #7280a7;
+  --clr-dark-blue: #1f2f56;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--clr-desaturated-blue);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 375px;
+  height: 600px;
+  background-color: var(--clr-very-pale-blue);
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.header-img {
+  width: 100%;
+  height: 165px;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.title {
+  margin: 1.7rem auto;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--clr-dark-blue);
+}
+
+.discription {
+  margin: 0rem 3.7rem;
+  line-height: 1.5;
+  color: var(--clr-desaturated-blue);
+}
+
+.cointainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--clr-pale-blue);
+  width: 80%;
+  padding: 0.9rem 0;
+  margin: 0.9rem auto;
+  justify-content: space-around;
+  border-radius: 0.9rem;
+}
+
+.musicIcon {
+  background-color: var(--clr-very-pale-blue);
+  border-radius: 50%;
+  width: 55px;
+}
+
+.plan-details h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.plan-details p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.change-link {
+  font-weight: 900;
+  font-size: 0.90rem;
+  color: var(--clr-bright-blue);
+}
+
+.change-link:hover {
+  opacity: 0.4;
+}
+
+.btn-pay button {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--clr-bright-blue);
+  font-size: 1rem;
+  color: var(--clr-very-pale-blue);
+  font-weight: 900;
+  margin: 1.3rem auto;
+}
+
+.btn-pay button:hover {
+  opacity: 0.55;
+  cursor: pointer;
+}
+
+.cancel-link {
+  text-decoration: none;
+  font-weight: 900; 
+}
+
+.cancel-link:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
